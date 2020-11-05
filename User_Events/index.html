@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical with User Events</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="events.js"></script>
+</head>
+
+<body>
+    <div class="container bg-light p-5">
+        <h1>Let's Learn User Events</h1>
+
+        <div class="d-flex justify-content-between">
+
+            <button class="btn btn-primary" onmouseover="webInfo()" onmouseout="getInfo()">Home</button>
+            <button class="btn btn-secondary">Products</button>
+            <button class="btn btn-success">Our Team</button>
+            <button class="btn btn-info">About Us</button>
+            <button class="btn btn-warning">Contact Us</button>
+
+        </div>
+
+        <p id="info" class="d-none mt-4 p-5 bg-warning">This is Shoping a website. This is Shoping a website. This is Shoping a website.This is Shoping a website.</p>
+
+        <p class="mt-3">Hello....I am working as a developer.</p>
+        <p>Hello....I am working as a developer.</p>
+        <p>Hello....I am working as a developer.</p>
+        <p ondblclick="clickMe(event)">Hello....I am working as a developer.</p>
+        <p>Hello....I am working as a developer.</p>
+        <p>Hello....I am working as a developer.</p>
+
+        <img src="html-css.png" height="350px" onload="loadImg()">
+
+    </div>
+</body>
+
+</html>
